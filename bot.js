@@ -2,7 +2,7 @@ const { Telegraf } = require('telegraf');
 const mysql = require('mysql2');
 
 
-const bot = new Telegraf('7580096925:AAHp7d-hzkg93V6cNz1f4F8pYkFLblMMbwc');
+const bot = new Telegraf('TOKEN');
 
 //Conexión con la base de datos
 const connection = mysql.createConnection({
